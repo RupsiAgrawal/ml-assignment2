@@ -16,9 +16,9 @@ Given the match statistics of one T20 cricket innings (boundaries, dot balls, wi
 - **Caveats:** the innings in this file are partial (average about 56 legal balls out of 120), so `legal_balls` varies a lot. The task is descriptive (what an innings looked like), not a forecast made before the innings starts.
 
 ## c. GitHub Repository Link
-`<https://github.com/YOUR-USERNAME/YOUR-REPO>`
+`https://github.com/RupsiAgrawal/ml-assignment2.git`
 
-Live Streamlit app: `<https://YOUR-APP.streamlit.app>`
+Live Streamlit app: `https://ml-assignment2git-nbmlu9tyste4fuq3qlyv32.streamlit.app/`
 
 Repository contents: `app.py`, `train.py`, `prepare_data.py`, `requirements.txt`, `README.md`, `test_data.csv`, `innings_dataset.csv`, `deliveries.csv`, `model/` (five saved pipelines, label encoder, metrics table).
 
@@ -51,14 +51,14 @@ Precision, recall and F1 are for the positive class (high tempo = 1).
 
 ## Environment used for the reported results
 <!-- ENV_START -->
-- Python 3.13.17
-- scikit-learn 1.9.1
-- pandas 3.0.5
-- numpy 2.5.3
-- joblib 1.6.0
-- matplotlib 3.11.2
-- seaborn 0.13.2
-- streamlit (not installed here)
+Python 3.10.0
+scikit-learn 1.7.2
+pandas 2.3.3
+numpy 2.2.6
+joblib 1.6.0
+matplotlib 3.10.9
+seaborn 0.13.2
+streamlit 1.65.0
 <!-- ENV_END -->
 
 ## How to run

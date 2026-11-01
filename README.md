@@ -51,7 +51,7 @@ Precision, recall and F1 are for the positive class (high tempo = 1).
 
 ## Environment used for the reported results
 <!-- ENV_START -->
-Python 3.10.0
+Python 3.9
 scikit-learn 1.7.2
 pandas 2.3.3
 numpy 2.2.6
